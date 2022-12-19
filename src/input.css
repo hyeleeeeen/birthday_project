@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply w-4/5;
+    @apply m-auto;
+    @apply max-md:w-5/6;
+  }
+
+  ul,
+  li {
+    @apply p-0;
+    @apply m-0;
+  }
+  main {
+    @apply mt-32;
+    @apply mb-32;
+  }
+}
