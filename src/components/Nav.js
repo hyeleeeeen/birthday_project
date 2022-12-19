@@ -1,6 +1,6 @@
 const Nav = ({ Link }) => {
   return (
-    <ul className="flex justify-between bg-red-500 text-2xl xl:text-3xl">
+    <ul className="flex justify-between text-2xl xl:text-3xl">
       <li>
         <Link to="/happy">Happy</Link>
       </li>
