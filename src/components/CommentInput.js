@@ -1,25 +1,29 @@
-import { useRef } from 'react';
-
 const CommentInput = () => {
-  const textarea = useRef();
-  const handleResizeHeight = () => {
-    textarea.current.style.height = 'auto'; // height 초기화
-    textarea.current.style.height = textarea.current.scrollHeight + 'px';
+  const handleOnClick = () => {
+    alert('준비중입니다');
   };
   return (
-    <section className="flex bg-black  ">
+    <section className="flex m-auto">
       <div className="flex flex-col">
-        <input type="text" placeholder="닉네임" className="" />
+        <input
+          type="text"
+          placeholder="닉네임"
+          className="w-20 mb-1 border focus:outline-none focus:ring focus:ring-gray-300"
+        />
         <textarea
           placeholder="편지를 입력해주세요."
-          className=""
-          onChange={handleResizeHeight}
-          rows={1} // 기본값 한줄 고정
+          className="mb-8 w-50 h-17 border focus:outline-none focus:ring focus:ring-gray-300"
         />
       </div>
-      <button type="submit" className="h-8 bg-red-100">
-        send!
-      </button>
+      <div className="place-items-center flex ml-2">
+        <button
+          type="submit"
+          onClick={handleOnClick}
+          className="h-8 w-16 bg-red-200 text-white rounded-full shadow-md shadow-gray-200 active:shadow-sm hover:opacity-80"
+        >
+          send!
+        </button>
+      </div>
     </section>
   );
 };
