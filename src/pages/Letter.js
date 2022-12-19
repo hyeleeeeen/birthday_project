@@ -1,5 +1,11 @@
+import Comment from '../components/Comment';
+
 const Letter = () => {
-  return;
+  return (
+    <main>
+      <Comment />
+    </main>
+  );
 };
 
 export default Letter;
