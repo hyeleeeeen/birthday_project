@@ -11,7 +11,7 @@ import Cam from './pages/Cam';
 function App() {
   return (
     <BrowserRouter>
-      <Header Link={Link} />
+      <Header />
       <Nav Link={Link} />
       <Routes>
         <Route path="/" element={<Main />} />
