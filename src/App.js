@@ -1,5 +1,6 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Header from './components/Header';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Main from './pages/Main';
 import Gallery from './pages/Gallery';
@@ -10,7 +11,8 @@ import Cam from './pages/Cam';
 function App() {
   return (
     <BrowserRouter>
-      <Header />
+      <Header Link={Link} />
+      <Nav Link={Link} />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/happy" element={<Gallery />} />
