@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/birthday_project/static/css/main.63c61623.css",
+    "main.js": "/birthday_project/static/js/main.0c1fc847.js",
+    "static/media/collage2.png": "/birthday_project/static/media/collage2.e92c9553f9bc56d9eb3b.png",
+    "static/media/NanumSquareNeo-Variable.woff": "/birthday_project/static/media/NanumSquareNeo-Variable.d80ae48b60611b9cbb57.woff",
+    "static/media/mainpic.jpeg": "/birthday_project/static/media/mainpic.855229abc6639ff1aabd.jpeg",
+    "static/media/headerGif.gif": "/birthday_project/static/media/headerGif.4ad74cde957ee56737b6.gif",
+    "static/media/ciao.gif": "/birthday_project/static/media/ciao.56b82f372dd4bd8b4e6a.gif",
+    "static/media/luv.jpg": "/birthday_project/static/media/luv.25818260fcff99de3267.jpg",
+    "static/media/song.mp3": "/birthday_project/static/media/song.9649c5ffe069c9258692.mp3",
+    "index.html": "/birthday_project/index.html",
+    "main.63c61623.css.map": "/birthday_project/static/css/main.63c61623.css.map",
+    "main.0c1fc847.js.map": "/birthday_project/static/js/main.0c1fc847.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63c61623.css",
+    "static/js/main.0c1fc847.js"
+  ]
+}
