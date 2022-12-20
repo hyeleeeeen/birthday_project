@@ -1,6 +1,7 @@
 const CommentInput = () => {
   const handleOnClick = () => {
-    alert('준비중입니다');
+    alert('준비중입니다!');
+    alert('카톡으로 보내는건');
   };
   return (
     <section className="flex m-auto">
