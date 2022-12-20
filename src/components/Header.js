@@ -3,7 +3,7 @@ import headerGif from '../asset/images/headerGif.gif';
 const Header = () => {
   return (
     <>
-      <div className=" w-full xl:bg-yellow-500 lg:bg-blue-400 md:bg-black max-md:bg-pink-500 ">
+      <div className=" w-full">
         <a href="/" className="flex justify-center">
           <img
             src={headerGif}
