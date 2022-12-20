@@ -3,12 +3,16 @@ import CommentList from './CommentList';
 
 const Comment = () => {
   const commentData = [
-    { id: 1, nickName: '둘리', content: '생일축하해!' },
+    { id: 1, nickName: '멍멍', content: '생일축하해!' },
     {
       id: 2,
       nickName: '냥아치',
-      content:
-        '올 생일이냠ㅋ 진짜루 생일축하해 ㅋㅋㅋ 담에 함 보자! 오늘 하루 즐겁게 잘보내구',
+      content: '올 생일이냠ㅋ오늘 즐겁게 보내랑',
+    },
+    {
+      id: 3,
+      nickName: '할룽',
+      content: '할룽할룽',
     },
   ];
   return (
