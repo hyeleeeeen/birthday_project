@@ -1,5 +1,11 @@
+import Camera from '../components/Camera';
+
 const Cam = () => {
-  return;
+  return (
+    <>
+      <Camera />
+    </>
+  );
 };
 
 export default Cam;
