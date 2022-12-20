@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
 
 @layer base {
   body {
@@ -8,7 +9,10 @@
     @apply m-auto;
     @apply max-md:w-5/6;
   }
-
+  h1 {
+    @apply text-2xl;
+    @apply font-bold;
+  }
   ul,
   li {
     @apply p-0;
@@ -18,4 +22,20 @@
     @apply mt-32;
     @apply mb-32;
   }
+  h2 {
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 4rem;
+    font-weight: semi-bold;
+    @apply max-md:text-3xl;
+    @apply max-md:font-medium;
+    @apply text-red-300;
+  }
+}
+
+@font-face {
+  font-family: 'Nanum';
+  src: local('Nanum'),
+    url('./styles/font/NanumSquareNeo-Variable.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
