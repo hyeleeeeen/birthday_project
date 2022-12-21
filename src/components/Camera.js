@@ -10,6 +10,12 @@ const Camera = () => {
     setImgSrc(imageSrc);
   }, [webcamRef, setImgSrc]);
 
+  const today = new Date();
+
+  const date = today.toLocaleDateString('en-US');
+
+  console.log(imgSrc);
+
   return (
     <main className="flex flex-col justify-center">
       <h1 className="default m-auto text-neutral-500">새로운 추억 담기 💟</h1>
@@ -22,10 +28,12 @@ const Camera = () => {
       <button onClick={capture} className="text-9xl">
         📷
       </button>
-      <section className="mt-16 p-6 pb-48  shadow-[#d9d9d9] shadow-lg">
-        {imgSrc && <img src={imgSrc} alt="newpic" className="mb-5" />}
-        <h1>2022 / 12 / 20 </h1>
-      </section>
+      {imgSrc && (
+        <section className="mt-16 p-6 pb-48  shadow-[#d9d9d9] shadow-lg">
+          <img src={imgSrc} alt="newpic" className="mb-5" />
+          <h1>{date}</h1>
+        </section>
+      )}
     </main>
   );
 };
