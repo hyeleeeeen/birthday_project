@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Nav Link={Link} />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/birthday_project" element={<Main />} />
         <Route path="/happy" element={<Gallery />} />
         <Route path="/birthday" element={<Play />} />
         <Route path="/to" element={<Letter />} />

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <div className=" w-full">
-        <a href="/" className="flex justify-center">
+        <a href="/birthday_project" className="flex justify-center">
           <img
             src={headerGif}
             alt="cake"
