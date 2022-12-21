@@ -28,7 +28,6 @@
     font-weight: semi-bold;
     @apply max-md:text-3xl;
     @apply max-md:font-medium;
-    @apply text-red-300;
   }
 }
 
