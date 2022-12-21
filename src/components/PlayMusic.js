@@ -1,10 +1,16 @@
-import ReactAudioPlayer from 'react-audio-player';
+import AudioPlayer from 'react-h5-audio-player';
 import music from '../asset/music/song.mp3';
 
 function PlayMusic() {
   return (
     <>
-      <ReactAudioPlayer src={music} autoPlay controls loop={true} />
+      <AudioPlayer
+        autoPlay
+        src={music}
+        onPlay={(e) => console.log('onPlay')}
+        loop={true}
+        showJumpControls={false}
+      />
     </>
   );
 }
