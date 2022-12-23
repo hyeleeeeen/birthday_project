@@ -1,24 +1,32 @@
 import CommentInput from './CommentInput';
 import CommentList from './CommentList';
+import { useState } from 'react';
+import { dbService } from '../fBase';
+import { collection, getDocs } from 'firebase/firestore';
 
 const Comment = () => {
-  const commentData = [
-    { id: 1, nickName: '멍멍', content: '생일축하해!' },
-    {
-      id: 2,
-      nickName: '냥아치',
-      content: '올 생일이냠ㅋ오늘 즐겁게 보내랑',
-    },
-    {
-      id: 3,
-      nickName: '할룽',
-      content: '할룽할룽',
-    },
-  ];
+  const [comments, setComments] = useState([]);
+
+  const getComments = async () => {
+    const dbComments = await getDocs(collection(dbService, 'comments'));
+    dbComments.forEach((document) => {
+      const commentObject = {
+        ...document.data(),
+        id: document.id,
+      };
+      setComments((prev) => [commentObject, ...prev]);
+    });
+  };
+  console.log(comments);
+
   return (
     <div className="flex flex-col ">
-      <CommentInput />
-      <CommentList commentData={commentData} />
+      <CommentInput
+        dbService={dbService}
+        getComments={getComments}
+        setComments={setComments}
+      />
+      <CommentList commentData={comments} />
     </div>
   );
 };
