@@ -8,9 +8,9 @@ const MainView = () => {
         <img
           src={mainpic}
           alt="pic"
-          className="w-1/2  m-auto border-4 border-dashed"
+          className=" m-auto border-4 border-dashed w-10/12"
         />
-        <img className="w-1/2  m-auto mt-10" src={luv} alt="pic"></img>
+        <img className=" m-auto mt-10 w-10/12" src={luv} alt="pic"></img>
       </main>
     </>
   );
