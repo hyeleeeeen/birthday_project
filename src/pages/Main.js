@@ -1,11 +1,7 @@
 import MainView from '../components/MainView';
 
-const Main = () => {
-  return (
-    <div>
-      <MainView />
-    </div>
-  );
+const Main = ({ Link }) => {
+  return <MainView Link={Link} />;
 };
 
 export default Main;

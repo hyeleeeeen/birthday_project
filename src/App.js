@@ -14,11 +14,11 @@ function App() {
       <Header />
       <Nav Link={Link} />
       <Routes>
-        <Route path="/birthday_project" element={<Main />} />
-        <Route path="/happy" element={<Gallery />} />
-        <Route path="/birthday" element={<Play />} />
-        <Route path="/to" element={<Letter />} />
-        <Route path="/you" element={<Cam />} />
+        <Route path="/birthday_project" element={<Main Link={Link} />} />
+        <Route path="/happy" element={<Gallery Link={Link} />} />
+        <Route path="/birthday" element={<Play Link={Link} />} />
+        <Route path="/to" element={<Letter Link={Link} />} />
+        <Route path="/you" element={<Cam Link={Link} />} />
       </Routes>
       <Footer />
     </BrowserRouter>
