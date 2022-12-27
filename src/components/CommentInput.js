@@ -13,6 +13,12 @@ const CommentInput = ({ dbService, setComments }) => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
+    if (comment === '') {
+      return alert('편지를 입력하세요!');
+    }
+    if (name === '') {
+      return alert('닉네임을 입력하세요! ');
+    } // 빈칸 입력시 무효화
     await addDoc(collection(dbService, 'comments'), {
       nickName: name,
       content: comment,
