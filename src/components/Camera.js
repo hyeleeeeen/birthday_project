@@ -14,10 +14,8 @@ const Camera = () => {
 
   const date = today.toLocaleDateString('en-US');
 
-  console.log(imgSrc);
-
   return (
-    <main className="flex flex-col justify-center">
+    <article className="flex flex-col justify-center">
       <h1 className="default m-auto text-neutral-500">새로운 추억 담기 💟</h1>
       <Webcam
         audio={false}
@@ -34,7 +32,7 @@ const Camera = () => {
           <h1>{date}</h1>
         </section>
       )}
-    </main>
+    </article>
   );
 };
 

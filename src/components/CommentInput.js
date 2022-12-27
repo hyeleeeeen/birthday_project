@@ -36,9 +36,6 @@ const CommentInput = ({ dbService, setComments }) => {
     setName(value);
   };
 
-  console.log(comment);
-  console.log(name);
-
   useEffect(() => {
     const q = query(
       collection(dbService, 'comments'),

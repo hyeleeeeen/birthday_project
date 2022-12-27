@@ -17,17 +17,16 @@ const Comment = () => {
       setComments((prev) => [commentObject, ...prev]);
     });
   };
-  console.log(comments);
 
   return (
-    <div className="flex flex-col ">
+    <section className="flex flex-col ">
       <CommentInput
         dbService={dbService}
         getComments={getComments}
         setComments={setComments}
       />
       <CommentList commentData={comments} />
-    </div>
+    </section>
   );
 };
 

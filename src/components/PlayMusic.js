@@ -3,15 +3,13 @@ import music from '../asset/music/song.mp3';
 
 function PlayMusic() {
   return (
-    <>
-      <AudioPlayer
-        autoPlay
-        src={music}
-        onPlay={(e) => console.log('onPlay')}
-        loop={true}
-        showJumpControls={false}
-      />
-    </>
+    <AudioPlayer
+      autoPlay
+      src={music}
+      onPlay={(e) => console.log('onPlay')}
+      loop={true}
+      showJumpControls={false}
+    />
   );
 }
 

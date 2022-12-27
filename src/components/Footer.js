@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="text-[#8F8989] flex justify-between xl:justify-between h-48 place-items-center">
+    <footer className="text-[#8F8989] flex justify-between xl:justify-between h-48 place-items-center">
       <div>
         <span>Gift for</span>{' '}
         <a href="https://instagram.com/chaehyunsta?igshid=YTY2NzY3YTc=">
@@ -23,7 +23,7 @@ const Footer = () => {
         </a>
         <a href="https://github.com/hyeleeeeen/birthday_project">github</a>
       </div>
-    </div>
+    </footer>
   );
 };
 
