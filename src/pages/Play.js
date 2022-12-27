@@ -1,14 +1,9 @@
 import ciao from '../asset/images/ciao.gif';
 import PlayMusic from '../components/PlayMusic';
-import { BiUpArrowCircle } from 'react-icons/bi';
 
 const Play = () => {
   return (
-    <div className="relative ">
-      <div className="absolute left-[590px] bottom-[740px] opacity-30 ">
-        <BiUpArrowCircle />
-        <span>Click !</span>
-      </div>
+    <div>
       <main className="flex flex-col">
         <section>
           <img
