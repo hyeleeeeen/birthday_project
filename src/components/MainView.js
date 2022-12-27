@@ -12,7 +12,7 @@ const MainView = ({ Link }) => {
       />
       <img className=" m-auto mt-10 w-10/12" src={luv} alt="pic"></img>
       <Link to="/happy" className="flex flex-row-reverse">
-        <GoChevronRight className="text-6xl sm:text-8xl text-gray-400" />
+        <GoChevronRight className="text-6xl sm:text-8xl text-gray-400 animate-bounce" />
       </Link>
     </main>
   );

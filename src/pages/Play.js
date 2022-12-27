@@ -1,7 +1,6 @@
 import ciao from '../asset/images/ciao.gif';
 import PlayMusic from '../components/PlayMusic';
-import { GoChevronRight } from 'react-icons/go';
-import { GoChevronLeft } from 'react-icons/go';
+import { GoChevronRight, GoChevronLeft } from 'react-icons/go';
 
 const Play = ({ Link }) => {
   return (
@@ -16,7 +15,7 @@ const Play = ({ Link }) => {
       <section className=" m-auto">
         <PlayMusic />
       </section>
-      <section className="flex justify-between">
+      <section className="flex justify-between animate-bounce">
         <Link to="/happy">
           <GoChevronLeft className="text-6xl sm:text-8xl text-gray-400" />
         </Link>

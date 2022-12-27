@@ -6,7 +6,7 @@ const Cam = ({ Link }) => {
     <main>
       <Camera />
       <Link to="/to">
-        <GoChevronLeft className="text-6xl sm:text-8xl text-gray-400" />
+        <GoChevronLeft className="text-6xl sm:text-8xl text-gray-400 animate-bounce " />
       </Link>
     </main>
   );
