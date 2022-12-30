@@ -75,7 +75,7 @@ const CommentInput = ({ dbService, setComments }) => {
           maxLength={40}
           value={comment}
           onChange={onChange}
-          className="mb-8 w-50 h-17 border focus:outline-none focus:ring focus:ring-gray-300"
+          className="mb-8 w-50 h-17 border focus:outline-none focus:ring focus:ring-gray-300 resize-none"
         />
       </div>
       <div className="place-items-center flex ml-2">
