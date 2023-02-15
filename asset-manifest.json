@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/birthday_project/static/css/main.c7e7c914.css",
-    "main.js": "/birthday_project/static/js/main.19bc0f30.js",
+    "main.css": "/birthday_project/static/css/main.0435c86c.css",
+    "main.js": "/birthday_project/static/js/main.e45d4369.js",
     "static/media/NanumSquareNeo-Variable.woff": "/birthday_project/static/media/NanumSquareNeo-Variable.d80ae48b60611b9cbb57.woff",
     "static/media/mainpic.jpeg": "/birthday_project/static/media/mainpic.855229abc6639ff1aabd.jpeg",
     "static/media/headerGif.gif": "/birthday_project/static/media/headerGif.4ad74cde957ee56737b6.gif",
     "static/media/collage2.png": "/birthday_project/static/media/collage2.89743e3beac489d94aeb.png",
+    "static/media/song.mp3": "/birthday_project/static/media/song.ef4344bb611b5cd978c5.mp3",
     "static/media/ciao.gif": "/birthday_project/static/media/ciao.56b82f372dd4bd8b4e6a.gif",
     "static/media/luv.jpg": "/birthday_project/static/media/luv.25818260fcff99de3267.jpg",
-    "static/media/song.mp3": "/birthday_project/static/media/song.9649c5ffe069c9258692.mp3",
     "index.html": "/birthday_project/index.html",
-    "main.c7e7c914.css.map": "/birthday_project/static/css/main.c7e7c914.css.map",
-    "main.19bc0f30.js.map": "/birthday_project/static/js/main.19bc0f30.js.map"
+    "main.0435c86c.css.map": "/birthday_project/static/css/main.0435c86c.css.map",
+    "main.e45d4369.js.map": "/birthday_project/static/js/main.e45d4369.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7e7c914.css",
-    "static/js/main.19bc0f30.js"
+    "static/css/main.0435c86c.css",
+    "static/js/main.e45d4369.js"
   ]
 }
